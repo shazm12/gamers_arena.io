@@ -176,6 +176,7 @@ html.body {
 .heading h2 {
     font-size: 62px;
     font-family: 'Heebo', sans-serif;
+
 }
 @media screen and (max-width: 600px) {
     .title {
@@ -266,6 +267,7 @@ html.body {
     z-index: 10 ;
     opacity: 0;
     color: black;
+    font-family: consolas;
 
 }
 
@@ -280,7 +282,7 @@ html.body {
 .container .card .contentbx h2 {
     position: relative;
     font-weight:  600;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
 
 }
 .container .card .contentbx h3 {
@@ -295,6 +297,17 @@ html.body {
     border: 2px groove rgb(0, 0, 0);
     color: black;
     font-weight: 1000;
+    transition: all .5s;
+    margin-top: 4vh;
 
 
+
+}
+
+
+.container .card .contentbx a:hover {
+
+    border: 2px groove #fd3d4dc7;
+    color: #ff1e29;
+    filter: brightness(120%);
 }
